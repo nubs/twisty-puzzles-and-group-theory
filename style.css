@@ -1,0 +1,17 @@
+div.CedCube {
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+.cc-interface {
+	text-align: center;
+}
+
+.cc-formula-text {
+	font-size: 1.8em;
+}
+
+a.cc-link {
+   text-decoration: none;
+   margin: 10px;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/css/reveal.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/css/theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/lib/js/head.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js"></script>
+    <script src="/cedCube/js-lib/OrbitControls.js"></script>
+    <script src="/cedCube/js/CedCube.js"></script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="README.md" data-separator="^\n\n\n" data-vertical="^\n\n">
+        </section>
+      </div>
+    </div>
+
+    <script>
+      window.onload = function() {
+        Reveal.initialize({
+          dependencies: [
+            {
+              src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/plugin/markdown/marked.js',
+              condition: function() { return !!document.querySelector('[data-markdown]'); }
+            },
+            {
+              src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/plugin/markdown/markdown.js',
+              condition: function() { return !!document.querySelector('[data-markdown]'); }
+            }
+          ]
+        });
+        Reveal.addEventListener('ready', run);
+      };
+    </script>
+  </body>
+</html>

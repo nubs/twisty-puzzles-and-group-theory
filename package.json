@@ -1,0 +1,12 @@
+{
+  "name": "twisty-puzzles-and-group-theory",
+  "description": "A talk about Twisty Puzzles",
+  "keywords": ["twisty", "puzzles", "rubik"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nubs/twisty-puzzles-and-group-theory"
+  },
+  "dependencies": {
+    "express": "~4.10"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "cedCube"]
+	path = cedCube
+	url = https://github.com/cbeust/cedCube
